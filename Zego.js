@@ -6,7 +6,8 @@ import Searchbar from './subcomponents/Searchbar'
 function Zego() {
   return (
     <View style={tw`flex-1`}>
-     <View style={tw`bg-[#313131] flex-1 justify-center`}>
+     <View style={tw`bg-[#131313] flex-1 justify-center`}>
+
        <Searchbar/>
      </View>
      <View style={tw`bg-white flex-2`}>

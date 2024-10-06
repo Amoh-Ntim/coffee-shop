@@ -4,7 +4,7 @@ import tw from 'twrnc'
 
 function Searchbar() {
   return (
-    <View style={tw`flex-row items-center bg-[#131313] rounded-full px-4 py-2`}>
+    <View style={tw`flex-row items-center bg-[#313131] rounded-full px-4 py-2`}>
        {/* Search Icon */}
        <Image
         source={require('../assets/search-normal.png')}
