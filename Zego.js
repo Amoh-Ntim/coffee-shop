@@ -2,6 +2,7 @@ import React from 'react'
 import { Image, Text, TextInput, TouchableOpacity, View } from 'react-native'
 import tw from 'twrnc'
 import Searchbar from './subcomponents/Searchbar'
+import Bottombar from './subcomponents/Bottombar'
 
 function Zego() {
   return (
@@ -24,8 +25,13 @@ function Zego() {
        </View>
        <Searchbar/>
      </View>
+     {/* white background view */}
      <View style={tw`bg-white flex-2`}>
 
+     </View>
+     {/* bottom nav view */}
+     <View>
+      <Bottombar/>
      </View>
     </View>
   )
