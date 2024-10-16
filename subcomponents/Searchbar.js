@@ -4,11 +4,12 @@ import tw from 'twrnc'
 
 function Searchbar() {
   return (
+    // view
     <View style={tw`flex-row items-center bg-[#313131] rounded-xl px-4 py-2 mx-2`}>
        {/* Search Icon */}
        <Image
         source={require('../assets/search-normal.png')}
-        style={tw`w-6 h-6 mr-2`}
+        style={tw`w-6 h-6 mr-2 `}
       />
       
       {/* Text Input */}
